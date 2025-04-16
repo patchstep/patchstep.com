@@ -1,3 +1,8 @@
-# textile/app
+```
+npm install
+npm run dev
+```
 
-The webapp / dashboard for Textile.
+```
+npm run deploy
+```
