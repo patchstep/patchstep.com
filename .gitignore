@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.trash
+*.pem
+
+# Logs
+logs
+*.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Local env files
+.env*
+.*.vars
+!.env*.example
+!.*.vars*.example
+
+# dev
+.yarn/
+!.yarn/releases
+.wrangler
+
+# Build Outputs
+.dist
+dist
+.svelte-kit
+svelte-kit
+.tsup
+tsup
+.build
+build
+.out
+out
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Obsidian
+
+# OR only to exclude workspace cache
+**/.obsidian/workspace/*
+
+# Exclude plugins
+**/.obsidian/plugins
+
+# Exclude themes
+**/.obsidian/themes
+
+# This file is used to keep track of last auto backup/pull
+**/.obsidian-git-data
+
+# Exclude Untitled Notes
+**/Untitled*
+# Exclude "bad" names
+**/null*

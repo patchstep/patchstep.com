@@ -1,0 +1,25 @@
+{
+  "name": "textile",
+  "private": true,
+  "description": "Textile combines the power of GitHub projects with the simplicity of Microsoft To Do, by using both!",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "turbo": "^2.4.4",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@10.7.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@mia-cx/config": "^1.0.0",
+    "eslint": "^8.57.1"
+  }
+}
